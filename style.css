@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+span {
+  color: #1ef0ff;
+}
+
+.full-body {
+  background: linear-gradient(#CDD6DD, #CD8987);
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-one {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 29rem 2fr 22rem;
+  gap: 10rem;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.profile {
+  max-width: 29rem;
+  margin-top: 4rem;
+  color: #fff;
+  display: flex;
+  float: left;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 3px black;
+}
+
+.profile-content {
+  display: flex;
+  max-width: 29rem;
+  width: 100%;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.frameworks {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frameworks img {
+  width: 5.5rem;
+  height: 5.5rem;
+  padding: 1rem;
+  background: #424242;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0 0.5rem 0.1rem #CDCACC;
+}
+
+.frameworks img:hover {
+  transform: translate(-3%, 3%) scale(1.3);
+}
+
+.frameworks legend {
+  font-size: 1.6rem;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.6rem;
+}
+
+.paragraph-one {
+  margin-bottom: 1rem;
+}
+
+.paragraph-two {
+  margin-bottom: 3rem;
+}
+
+.general-content {
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 4rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 3px black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-content {
+  padding: 2rem;
+  color: #fff;
+}
+
+.main-content p {
+  font-size: 1.6rem;
+}
+
+.socialmedia {
+  height: 20vh;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 4rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 3px black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.socialmedia-content {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socialmedia-content img {
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
+  background: #424242;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 0 0.5rem 0.1rem #CDCACC;
+  margin-top: 2rem;
+}
+
+.socialmedia-content img:hover {
+  transform: translate(-3%, 3%) scale(1.3);
+}
